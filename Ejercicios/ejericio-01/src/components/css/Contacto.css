@@ -1,0 +1,54 @@
+.Cont-List {
+  width: 30rem ;
+  height: 16rem;
+  overflow: auto; 
+}
+
+.Cont {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  height: 3rem;
+}
+
+.Estado-D {
+ color: #9b3636 !important;
+}
+
+.Estado-C {
+  color: #369b5f !important;
+}
+
+.Cont-Label {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  color: #6683b6;
+  font-weight: bold;
+}
+
+.Cont-Value {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  color: #867aa9;
+}
+
+p {
+  margin: 0;
+}
+
+.Bt-Update-Estado {
+  width: 80%;
+  height: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: black;
+  border: 0;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.Bt-Update-Estado:hover {
+  background: white;
+  color: black;
+}
